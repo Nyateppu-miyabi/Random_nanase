@@ -1,0 +1,165 @@
+body{
+    background-image: url(img/bg.png);
+    background-size: contain;
+}
+
+.finish {
+    opacity: 0;
+    cursor: default;
+}
+
+.title {
+    width: 65%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.main {
+    width: 22%;
+    height: auto;
+}
+
+#panel {
+    width: 300px;
+    height: 336px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card {
+    width: 60px;
+    height: 84px;
+    background-image: url('img/card_front.png');
+    background-size:cover;
+    float: left;
+    cursor: pointer;
+}
+
+.back {
+    width: 60px;
+    height: 84px;
+    background-image: url('img/card_back.png');
+    background-size:cover;
+}
+
+@media screen and (min-width: 480px){
+
+    .title {
+        width: 65%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .main {
+        width: 22%;
+        height: auto;
+    }
+
+    #panel {
+        width: 450px;
+        height: 504px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        width: 90px;
+        height: 126px;
+        background-image: url('img/card_front.png');
+        background-size:cover;
+        float: left;
+        cursor: pointer;
+    }
+
+    .back {
+        width: 90px;
+        height: 126px;
+        background-image: url('img/card_back.png');
+        background-size:cover;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .title {
+        position: absolute;
+        width: 30%;
+        height: auto;
+        right: 7%;
+    }
+
+    .main {
+        position: absolute;
+        width: 45%;
+        height: auto;
+        top: 20%;
+        right: 0%;
+    }
+
+    #panel {
+        width: 450px;
+        height: 504px;
+        overflow: hidden;
+        margin-top: 3%;
+        margin-left: 3%;
+        position: absolute;
+    }
+    .card {
+        width: 90px;
+        height: 126px;
+        background-image: url('img/card_front.png');
+        background-size:cover;
+        float: left;
+        cursor: pointer;
+    }
+
+    .back {
+        width: 90px;
+        height: 126px;
+        background-image: url('img/card_back.png');
+        background-size:cover;
+    }
+}
+
+@media screen and (min-width: 960px){
+
+    .title {
+        position: absolute;
+        width: 30%;
+        height: auto;
+        right: 10%;
+    }
+
+    .main {
+        position: absolute;
+        width: 50%;
+        height: auto;
+        top: 20%;
+        right: 2%;
+    }
+
+    #panel {
+        width: 450px;
+        height: 504px;
+        overflow: hidden;
+        margin-left: 3%;
+        position: absolute;
+    }
+    .card {
+        width: 90px;
+        height: 126px;
+        background-image: url('img/card_front.png');
+        background-size:cover;
+        float: left;
+        cursor: pointer;
+    }
+
+    .back {
+        width: 90px;
+        height: 126px;
+        background-image: url('img/card_back.png');
+        background-size:cover;
+    }
+}
